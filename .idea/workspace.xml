@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/IteratorPattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/BookshelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/BookshelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/IteratorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LcUioiN2OvI6ohdN9BppYQeKZ6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.deng" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.deng.practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.deng.practice.IteratorTest">
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.IteratorTest" />
+      <module name="IteratorPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.deng.practice.IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.practice.IteratorTest" />
+      <module name="IteratorPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.deng.practice.IteratorTest" />
+        <item itemvalue="Application.IteratorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="" />
+      <created>1676169994244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676169994244</updated>
+      <workItem from="1676169997400" duration="4384000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
