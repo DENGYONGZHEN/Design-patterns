@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IteratorPattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Aggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/BookshelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/BookshelfIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/practice/IteratorTest.java" afterDir="false" />
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Iterator模式">
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/Aggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/BookShelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/BookshelfIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/target/classes/com/deng/IteratorTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +62,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -60,12 +72,55 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\resources" />
+      <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\java\com\deng\practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.deng.practice.IteratorTest">
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FileTest">
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.practice.FileTest" />
+      <module name="AdapterPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.deng.AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.AdapterTest" />
+      <module name="AdapterPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.deng.AdapterTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.AdapterTest2" />
+      <module name="AdapterPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.deng.IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deng.IteratorTest" />
       <module name="IteratorPattern" />
       <extension name="coverage">
@@ -93,8 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTest" />
+        <item itemvalue="Application.com.deng.AdapterTest2" />
+        <item itemvalue="Application.com.deng.AdapterTest" />
         <item itemvalue="Application.com.deng.practice.IteratorTest" />
-        <item itemvalue="Application.IteratorTest" />
+        <item itemvalue="Application.com.deng.IteratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -106,8 +164,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676169994244</updated>
-      <workItem from="1676169997400" duration="4384000" />
+      <workItem from="1676169997400" duration="4883000" />
+      <workItem from="1676199016607" duration="8016000" />
     </task>
+    <task id="LOCAL-00001" summary="Iterator模式">
+      <created>1676174561658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676174561658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +190,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="设计模式" />
+    <MESSAGE value="Iterator模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator模式" />
   </component>
 </project>

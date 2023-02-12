@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/IteratorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
       </list>
     </option>
   </component>
