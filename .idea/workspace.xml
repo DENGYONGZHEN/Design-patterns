@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Factory模式">
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Prototype Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/practice/TestPrototypePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/practice/TestPrototypePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/practice/UnderLinePen.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/practice/UnderLinePen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/maven-workspace/space1110/Design-patterns/BuilderPattern/src/com/deng/practice&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -65,6 +65,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\maven-workspace\space1110\Design-patterns\BuilderPattern\src\com\deng\practice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\resources" />
       <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\java\com\deng\practice" />
@@ -73,10 +76,23 @@
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.deng.practice.TestPrototypePattern">
-    <configuration name="TestFactoryMethodPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestFactoryMethodPattern" />
-      <module name="FactoryMethodPattern" />
+  <component name="RunManager" selected="Application.TestAbstractFactoryPattern">
+    <configuration name="TestAbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestAbstractFactoryPattern" />
+      <module name="AbstractFactoryPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestBuilderPattern" />
+      <module name="BuilderPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -100,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestSingleton" />
-      <module name="SingletonPattern" />
+    <configuration name="com.deng.practice.TestBuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.practice.TestBuilderPattern" />
+      <module name="BuilderPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTemplateMethodPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestTemplateMethodPattern" />
-      <module name="TemplateMethodPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.deng.*" />
+          <option name="PATTERN" value="com.deng.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAbstractFactoryPattern" />
+        <item itemvalue="Application.com.deng.practice.TestBuilderPattern" />
+        <item itemvalue="Application.TestBuilderPattern" />
         <item itemvalue="Application.com.deng.practice.TestPrototypePattern" />
         <item itemvalue="Application.TestPrototypePattern" />
-        <item itemvalue="Application.TestSingleton" />
-        <item itemvalue="Application.TestFactoryMethodPattern" />
-        <item itemvalue="Application.TestTemplateMethodPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,10 @@
       <workItem from="1676285748611" duration="3711000" />
       <workItem from="1676349994085" duration="5546000" />
       <workItem from="1676359663373" duration="1346000" />
-      <workItem from="1676438874865" duration="9076000" />
+      <workItem from="1676438874865" duration="9411000" />
+      <workItem from="1676530948511" duration="23000" />
+      <workItem from="1676532623733" duration="11735000" />
+      <workItem from="1676555308220" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -186,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676357171521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prototype Pattern">
+      <created>1676464126282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676464126282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +223,8 @@
     <MESSAGE value="Iterator模式" />
     <MESSAGE value="Adapter模式" />
     <MESSAGE value="Factory模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory模式" />
+    <MESSAGE value="Prototype Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
