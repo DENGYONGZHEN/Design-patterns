@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Prototype Pattern">
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="AbstractFactory Pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/TestAbstractFactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/TestAbstractFactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
+      <recent name="com.deng.tableFactory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\maven-workspace\space1110\Design-patterns\BuilderPattern\src\com\deng\practice" />
@@ -76,10 +80,23 @@
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAbstractFactoryPattern">
+  <component name="RunManager" selected="Application.TestStrategyPattern">
     <configuration name="TestAbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deng.TestAbstractFactoryPattern" />
       <module name="AbstractFactoryPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestBridgePattern" />
+      <module name="BridgePattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -103,9 +120,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestPrototypePattern" />
-      <module name="PrototypePattern" />
+    <configuration name="TestStrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestStrategyPattern" />
+      <module name="StrategyPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -129,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.practice.TestPrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.practice.TestPrototypePattern" />
-      <module name="PrototypePattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.deng.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStrategyPattern" />
+        <item itemvalue="Application.TestBridgePattern" />
         <item itemvalue="Application.TestAbstractFactoryPattern" />
         <item itemvalue="Application.com.deng.practice.TestBuilderPattern" />
         <item itemvalue="Application.TestBuilderPattern" />
-        <item itemvalue="Application.com.deng.practice.TestPrototypePattern" />
-        <item itemvalue="Application.TestPrototypePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,8 @@
       <workItem from="1676438874865" duration="9411000" />
       <workItem from="1676530948511" duration="23000" />
       <workItem from="1676532623733" duration="11735000" />
-      <workItem from="1676555308220" duration="2171000" />
+      <workItem from="1676555308220" duration="2561000" />
+      <workItem from="1676799119304" duration="12419000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -199,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676464126282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="AbstractFactory Pattern">
+      <created>1676557865123</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676557865123</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +236,8 @@
     <MESSAGE value="Adapter模式" />
     <MESSAGE value="Factory模式" />
     <MESSAGE value="Prototype Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype Pattern" />
+    <MESSAGE value="AbstractFactory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="AbstractFactory Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

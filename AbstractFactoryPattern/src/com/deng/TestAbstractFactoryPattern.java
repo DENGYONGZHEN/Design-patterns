@@ -4,7 +4,7 @@ import com.deng.factory.Factory;
 import com.deng.factory.Link;
 import com.deng.factory.Page;
 import com.deng.factory.Tray;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 
 import java.util.Scanner;
 
@@ -14,6 +14,14 @@ import java.util.Scanner;
  * @Version 1.0.0
  * @Date 2023/2/16 23:04
  * @Created by helloDeng
+ *
+ * AbstractFactoryPattern 抽象工厂模式
+ * 抽象产品AbstractProduct：Link,Tray,Page
+ * 抽象工厂AbstractFactory：Factory
+ * 委托者：只会调用抽象工厂和抽象角色，对具体零件，产品和工厂一无所知
+ * 具体产品：ListLink,ListTray,ListPage
+ * 具体工厂：ListFactory
+ * 增加新的具体工厂和具体产品也很容易，就是编写Factory,Link,Tray,Page的子类，并实现他们定义的抽象方法
  */
 public class TestAbstractFactoryPattern {
     public static void main(String[] args) {
