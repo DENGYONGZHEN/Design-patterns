@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Strategy Pattern">
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Composite Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingletonPattern/src/com/deng/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonPattern/src/com/deng/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +78,23 @@
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCompositePattern">
+  <component name="RunManager" selected="Application.TestDecoratePattern">
     <configuration name="TestCompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deng.TestCompositePattern" />
       <module name="CompositePattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDecoratePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestDecoratePattern" />
+      <module name="DecoratorPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -130,26 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.practice.TestBuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.practice.TestBuilderPattern" />
-      <module name="BuilderPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.deng.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDecoratePattern" />
         <item itemvalue="Application.TestCompositePattern" />
         <item itemvalue="Application.com.deng.TestStrategyPattern" />
         <item itemvalue="Application.com.deng.TestBridgePattern" />
         <item itemvalue="Application.com.deng.TestAbstractFactoryPattern" />
-        <item itemvalue="Application.com.deng.practice.TestBuilderPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,9 @@
       <workItem from="1676532623733" duration="11735000" />
       <workItem from="1676555308220" duration="2561000" />
       <workItem from="1676799119304" duration="12974000" />
-      <workItem from="1676874833763" duration="7461000" />
+      <workItem from="1676874833763" duration="7884000" />
+      <workItem from="1676894479453" duration="4008000" />
+      <workItem from="1676975177131" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -216,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676814387416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Composite Pattern">
+      <created>1676884796480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676884796480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +253,8 @@
     <MESSAGE value="Prototype Pattern" />
     <MESSAGE value="AbstractFactory Pattern" />
     <MESSAGE value="Strategy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy Pattern" />
+    <MESSAGE value="Composite Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
