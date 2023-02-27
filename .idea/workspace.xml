@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="Composite Pattern">
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="单例模式8种实现">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SingletonPattern/src/com/deng/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonPattern/src/com/deng/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,40 +47,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/maven-workspace/space1110/Design-patterns/BuilderPattern/src/com/deng/practice&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/maven-workspace/space1110/Design-patterns/CompositePattern",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
-      <recent name="com.deng.tableFactory" />
+      <recent name="com.deng.abstractFactoryPattern.ingredient" />
+      <recent name="com.deng.abstractFactoryPattern" />
+      <recent name="com.deng.factoryMethodPattern" />
+      <recent name="com.deng.simpleFactoryPattern" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\maven-workspace\space1110\Design-patterns\CompositePattern" />
+      <recent name="D:\maven-workspace\space1110\Design-patterns\VisitorPattern" />
       <recent name="D:\maven-workspace\space1110\Design-patterns\BuilderPattern\src\com\deng\practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\maven-workspace\space1110\Design-patterns" />
       <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\resources" />
       <recent name="D:\maven-workspace\space1110\Design-patterns\AdapterPattern\src\main\java\com\deng\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.deng" />
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDecoratePattern">
-    <configuration name="TestCompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestCompositePattern" />
-      <module name="CompositePattern" />
+  <component name="RunManager" selected="Application.TestInterpreter">
+    <configuration name="TestCommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestCommandPattern" />
+      <module name="CommandPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -92,9 +98,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDecoratePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestDecoratePattern" />
-      <module name="DecoratorPattern" />
+    <configuration name="TestInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestInterpreter" />
+      <module name="Interpreter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -105,9 +111,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.TestAbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestAbstractFactoryPattern" />
-      <module name="AbstractFactoryPattern" />
+    <configuration name="com.deng.TestFlyweightPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestFlyweightPattern" />
+      <module name="FlyweightPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -118,9 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.TestBridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestBridgePattern" />
-      <module name="BridgePattern" />
+    <configuration name="com.deng.TestProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestProxyPattern" />
+      <module name="ProxyPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -131,9 +137,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.TestStrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestStrategyPattern" />
-      <module name="StrategyPattern" />
+    <configuration name="com.deng.TestStatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestStatePattern" />
+      <module name="StatePattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.deng.*" />
@@ -146,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDecoratePattern" />
-        <item itemvalue="Application.TestCompositePattern" />
-        <item itemvalue="Application.com.deng.TestStrategyPattern" />
-        <item itemvalue="Application.com.deng.TestBridgePattern" />
-        <item itemvalue="Application.com.deng.TestAbstractFactoryPattern" />
+        <item itemvalue="Application.TestInterpreter" />
+        <item itemvalue="Application.TestCommandPattern" />
+        <item itemvalue="Application.com.deng.TestProxyPattern" />
+        <item itemvalue="Application.com.deng.TestFlyweightPattern" />
+        <item itemvalue="Application.com.deng.TestStatePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,13 @@
       <workItem from="1676799119304" duration="12974000" />
       <workItem from="1676874833763" duration="7884000" />
       <workItem from="1676894479453" duration="4008000" />
-      <workItem from="1676975177131" duration="3364000" />
+      <workItem from="1676975177131" duration="4632000" />
+      <workItem from="1677053781184" duration="6018000" />
+      <workItem from="1677112668387" duration="3389000" />
+      <workItem from="1677314419615" duration="1804000" />
+      <workItem from="1677379121075" duration="21902000" />
+      <workItem from="1677417271906" duration="768000" />
+      <workItem from="1677483531371" duration="14516000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -226,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676884796480</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="单例模式8种实现">
+      <created>1676978843403</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676978843403</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +273,8 @@
     <MESSAGE value="AbstractFactory Pattern" />
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="Composite Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite Pattern" />
+    <MESSAGE value="单例模式8种实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式8种实现" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
