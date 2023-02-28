@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestStatePattern
- * @Description
+ * @Description  用类表示状态
  * @Version 1.0.0
  * @Date 2023/2/27 16:41
  * @Created by helloDeng

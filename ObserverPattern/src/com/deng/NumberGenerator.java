@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @Classname NumberGenerator
- * @Description TODO
+ * @Description 表示生成数值的对象的抽象类
  * @Version 1.0.0
  * @Date 2023/2/26 16:41
  * @Created by helloDeng

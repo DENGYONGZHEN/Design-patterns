@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname NightState
- * @Description
+ * @Description    表示"晚上"的状态的类
  * @Version 1.0.0
  * @Date 2023/2/27 16:54
  * @Created by helloDeng

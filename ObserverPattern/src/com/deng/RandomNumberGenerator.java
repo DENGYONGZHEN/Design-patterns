@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * @Classname RandomNumberGenerator
- * @Description
+ * @Description        生成随机数的类
  * @Version 1.0.0
  * @Date 2023/2/26 16:48
  * @Created by helloDeng

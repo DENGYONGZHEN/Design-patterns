@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname GraphObserver
- * @Description
+ * @Description      表示以简单的图形形式显示数值的类
  * @Version 1.0.0
  * @Date 2023/2/26 16:55
  * @Created by helloDeng

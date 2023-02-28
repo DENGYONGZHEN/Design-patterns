@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname BigString
- * @Description
+ * @Description   表示多个BigChar组成的"大型字符串"的类
  * @Version 1.0.0
  * @Date 2023/2/27 18:38
  * @Created by helloDeng

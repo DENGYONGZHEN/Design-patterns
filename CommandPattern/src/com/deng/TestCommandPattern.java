@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 /**
  * @Classname TestCommandPattern
- * @Description
+ * @Description  命令也是类
  * @Version 1.0.0
  * @Date 2023/2/27 19:11
  * @Created by helloDeng
@@ -13,8 +13,8 @@ import java.awt.event.*;
 public class TestCommandPattern extends JFrame implements ActionListener, MouseMotionListener, WindowListener {
 
 
-    private MacroCommand history = new MacroCommand();
-    private DrawCanvas canvas = new DrawCanvas(400, 400, history);
+    private MacroCommand history = new MacroCommand();        //绘制历史记录传给DrawCanvas，和DrawCanvas共享绘制历史记录
+    private DrawCanvas canvas = new DrawCanvas(400, 400, history);   //绘制区域
     private JButton clearButton = new JButton("clear");
 
     public TestCommandPattern(String title) {

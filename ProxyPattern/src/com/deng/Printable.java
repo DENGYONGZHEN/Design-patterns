@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname Printable
- * @Description
+ * @Description    Printer和PrinterProxy的共同接口
  * @Version 1.0.0
  * @Date 2023/2/27 18:54
  * @Created by helloDeng

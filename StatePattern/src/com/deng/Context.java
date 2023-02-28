@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname Context
- * @Description
+ * @Description    表示管理金库状态，并与警报中心联系的接口
  * @Version 1.0.0
  * @Date 2023/2/27 16:45
  * @Created by helloDeng

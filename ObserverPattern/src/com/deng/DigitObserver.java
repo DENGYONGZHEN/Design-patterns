@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname DigitObserver
- * @Description
+ * @Description      表示以数字形式显示数值的类
  * @Version 1.0.0
  * @Date 2023/2/26 16:53
  * @Created by helloDeng

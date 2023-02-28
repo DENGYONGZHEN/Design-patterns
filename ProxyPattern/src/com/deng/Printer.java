@@ -4,7 +4,7 @@ package com.deng;
 
 /**
  * @Classname Printer
- * @Description
+ * @Description   表示带名字的打印机的类（本人）
  * @Version 1.0.0
  * @Date 2023/2/27 18:53
  * @Created by helloDeng

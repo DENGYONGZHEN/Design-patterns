@@ -1,4 +1,4 @@
-package com.deng;
+package com.deng.game;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  * @Classname Gamer
- * @Description
+ * @Description   表示游戏主人公的类。他会生成Memento的实例
  * @Version 1.0.0
  * @Date 2023/2/26 19:33
  * @Created by helloDeng
@@ -42,7 +42,7 @@ public class Gamer {
         }
     }
 
-    private String getFruit() {
+    private String getFruit() {               //获得一个水果
         String prefix = "";
         if(random.nextBoolean()){
             prefix = "好吃的";
@@ -50,24 +50,24 @@ public class Gamer {
         return prefix + fruitsname[random.nextInt(fruitsname.length)];
     }
 
-    public Memento createMemento(){
+    public Memento createMemento(){          //拍摄快照
         Memento m = new Memento(money);
         Iterator iterator = fruits.iterator();
         while (iterator.hasNext()){
             String next = (String) iterator.next();
-            if(next.startsWith("好吃的")){
+            if(next.startsWith("好吃的")){        //只保存好吃的水果
                 m.addFruits(next);
             }
         }
         return m;
     }
-    public void restoreMemento(Memento memento){
+    public void restoreMemento(Memento memento){    //撤销
         this.money = memento.money;
         this.fruits = memento.getFruits();
     }
 
     @Override
-    public String toString() {
+    public String toString() {                    //表示主人公状态
         return "Gamer{" +
                 "money=" + money +
                 ", fruits=" + fruits +

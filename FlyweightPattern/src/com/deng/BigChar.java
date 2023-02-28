@@ -7,7 +7,7 @@ import java.io.IOException;
 
 /**
  * @Classname BigChar
- * @Description
+ * @Description  表示"大型字符"的类
  * @Version 1.0.0
  * @Date 2023/2/27 18:25
  * @Created by helloDeng
@@ -19,11 +19,11 @@ public class BigChar {
 
     public BigChar(char charname) {
         this.charname = charname;
-        try {
+        try {         //读取文件中的大型字符的字体数据
             BufferedReader reader = new BufferedReader(new FileReader("big" + charname + ".text"));
             String line;
             StringBuffer buffer = new StringBuffer();
-            while ((line = reader.readLine()) != null){
+            while ((line = reader.readLine()) != null){   //读取一行数据
                 buffer.append(line);
                 buffer.append("\n");
             }

@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestObserverPattern
- * @Description
+ * @Description   发送状态变化通知
  * @Version 1.0.0
  * @Date 2023/2/26 16:40
  * @Created by helloDeng

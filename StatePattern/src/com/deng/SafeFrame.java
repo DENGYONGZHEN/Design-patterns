@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 /**
  * @Classname SafeFrame
- * @Description
+ * @Description     实现了Context接口，在它内部持有按钮和画面显示等UI信息
  * @Version 1.0.0
  * @Date 2023/2/27 17:09
  * @Created by helloDeng

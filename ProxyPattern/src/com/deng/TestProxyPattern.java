@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestProxyPattern
- * @Description
+ * @Description  只在必要时生成实例
  * @Version 1.0.0
  * @Date 2023/2/27 18:52
  * @Created by helloDeng

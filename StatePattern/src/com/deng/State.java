@@ -4,7 +4,7 @@ package com.deng;
 
 /**
  * @Classname State
- * @Description
+ * @Description    表示金库状态的接口
  * @Version 1.0.0
  * @Date 2023/2/27 16:44
  * @Created by helloDeng

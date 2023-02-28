@@ -7,7 +7,7 @@ import java.io.FileReader;
 
 /**
  * @Classname TestInterpreter
- * @Description
+ * @Description   语法规则也是类
  * @Version 1.0.0
  * @Date 2023/2/27 20:27
  * @Created by helloDeng

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @Classname TestFlyweightPattern
- * @Description
+ * @Description  共享对象，避免浪费
  * @Version 1.0.0
  * @Date 2023/2/27 17:53
  * @Created by helloDeng
