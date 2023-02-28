@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="单例模式8种实现">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/CommandListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/CommandListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/CommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/CommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/PrimitiveCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/PrimitiveCommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/ProgramNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/ProgramNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/RepeatCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/RepeatCommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/TestInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/TestInterpreter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/maven-workspace/space1110/Design-patterns/CompositePattern",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/maven-workspace/space1110/Design-patterns/CompositePattern&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
@@ -187,7 +194,8 @@
       <workItem from="1677314419615" duration="1804000" />
       <workItem from="1677379121075" duration="21902000" />
       <workItem from="1677417271906" duration="768000" />
-      <workItem from="1677483531371" duration="14516000" />
+      <workItem from="1677483531371" duration="15531000" />
+      <workItem from="1677569213944" duration="5290000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -245,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676978843403</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sample">
+      <created>1677501723296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677501723296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +289,8 @@
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="Composite Pattern" />
     <MESSAGE value="单例模式8种实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式8种实现" />
+    <MESSAGE value="sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

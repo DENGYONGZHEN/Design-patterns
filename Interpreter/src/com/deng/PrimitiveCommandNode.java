@@ -2,10 +2,12 @@ package com.deng;
 
 /**
  * @Classname PrimitiveCommandNode
- * @Description TODO
+ * @Description
  * @Version 1.0.0
  * @Date 2023/2/27 21:24
  * @Created by helloDeng
+ *
+ * <primitive command>::= go | right | left
  */
 public class PrimitiveCommandNode extends Node {
     private String name;
