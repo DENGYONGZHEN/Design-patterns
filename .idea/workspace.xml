@@ -6,36 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/DrawCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/DrawCanvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/DrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/DrawCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/Drawable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/MacroCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/MacroCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandPattern/src/com/deng/TestCommandPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommandPattern/src/com/deng/TestCommandPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigCharFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigCharFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigString.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/BigString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/TestFlyweightPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlyweightPattern/src/com/deng/TestFlyweightPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter/src/com/deng/TestInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/src/com/deng/TestInterpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MementoPattern/src/com/deng/Gamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MementoPattern/src/com/deng/game/Gamer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MementoPattern/src/com/deng/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/MementoPattern/src/com/deng/game/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MementoPattern/src/com/deng/TestMementoPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/MementoPattern/src/com/deng/TestMementoPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/DigitObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/DigitObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/GraphObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/GraphObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/NumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/RandomNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/com/deng/TestObserverPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/com/deng/TestObserverPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyPattern/src/com/deng/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyPattern/src/com/deng/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyPattern/src/com/deng/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyPattern/src/com/deng/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyPattern/src/com/deng/PrinterProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyPattern/src/com/deng/PrinterProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyPattern/src/com/deng/TestProxyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyPattern/src/com/deng/TestProxyPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/DayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/DayState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/NightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/NightState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/SafeFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/SafeFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatePattern/src/com/deng/TestStatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/StatePattern/src/com/deng/TestStatePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/LimitSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/LimitSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/NoSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/NoSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/OddSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/OddSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/SpecialSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/SpecialSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/TestChainOfResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/TestChainOfResponsibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Trouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Trouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/HtmlWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/HtmlWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/Pagemaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/Pagemaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/TestFacadePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/TestFacadePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/Colleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteColleague1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteColleague2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/Mediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/TestMediatorPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/ListVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/ListVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/TestVisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/TestVisitorPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Visitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/maven-workspace/space1110/Design-patterns/StatePattern/src/com/deng/SafeFrame.java",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/maven-workspace/space1110/Design-patterns/StatePattern/src/com/deng/SafeFrame.java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.deng" />
@@ -113,13 +107,13 @@
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.deng.TestMementoPattern">
-    <configuration name="TestProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestProxyPattern" />
-      <module name="ProxyPattern" />
+  <component name="RunManager" selected="Application.TestVisitorPattern">
+    <configuration name="TestMediatorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestMediatorPattern" />
+      <module name="MediatorPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.game.*" />
+          <option name="PATTERN" value="com.deng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestStatePattern" />
-      <module name="StatePattern" />
+    <configuration name="TestVisitorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestVisitorPattern" />
+      <module name="VisitorPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.game.*" />
+          <option name="PATTERN" value="com.deng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVisitorPattern" />
+        <item itemvalue="Application.TestMediatorPattern" />
         <item itemvalue="Application.com.deng.TestMementoPattern" />
-        <item itemvalue="Application.com.deng.TestStatePattern" />
         <item itemvalue="Application.com.deng.TestInterpreter" />
         <item itemvalue="Application.com.deng.TestCommandPattern" />
-        <item itemvalue="Application.com.deng.TestProxyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +211,9 @@
       <workItem from="1677379121075" duration="21902000" />
       <workItem from="1677417271906" duration="768000" />
       <workItem from="1677483531371" duration="15531000" />
-      <workItem from="1677569213944" duration="17517000" />
+      <workItem from="1677569213944" duration="18123000" />
+      <workItem from="1677645905210" duration="2985000" />
+      <workItem from="1677649783640" duration="8205000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -289,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677576605545</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sample">
+      <created>1677594658403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677594658403</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestVisitorPattern
- * @Description
+ * @Description  访问数据结构并处理数据
  * @Version 1.0.0
  * @Date 2023/2/26 11:41
  * @Created by helloDeng

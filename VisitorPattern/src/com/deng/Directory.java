@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 /**
  * @Classname Directory
- * @Description
+ * @Description         表示文件夹的类
  * @Version 1.0.0
  * @Date 2023/2/20 16:00
  * @Created by helloDeng
@@ -36,7 +36,7 @@ public class Directory extends Entry{
     }
 
     @Override
-    public Entry add(Entry entry)  {
+    public Entry add(Entry entry)  {           //增加目录条目
         directory.add(entry);
         return this;
     }
@@ -48,5 +48,5 @@ public class Directory extends Entry{
     @Override
     public void accept(Visitor v) {
         v.visit(this);
-    }
+    }    //接受访问者的访问
 }

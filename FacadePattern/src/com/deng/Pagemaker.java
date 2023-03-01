@@ -6,15 +6,15 @@ import java.util.Properties;
 
 /**
  * @Classname Pagemaker
- * @Description
+ * @Description          根据邮件地址编写该用户的的Web页面
  * @Version 1.0.0
  * @Date 2023/2/26 14:07
  * @Created by helloDeng
  */
 public class Pagemaker {
-    public Pagemaker() {
+    private Pagemaker() {            //构造器私有
     }
-    public static void makeWelcomePage(String mailaddr,String filename){
+    public static void makeWelcomePage(String mailaddr,String filename){   //只提供了这个方法，就是窗口
         try{
             Properties maildata = Database.getProperties("maildata");
             String username = maildata.getProperty(mailaddr);

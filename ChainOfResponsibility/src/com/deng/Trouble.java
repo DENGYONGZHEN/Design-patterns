@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname Trouble
- * @Description
+ * @Description   表示发生问题的类。带有问题编号（number）
  * @Version 1.0.0
  * @Date 2023/2/26 12:43
  * @Created by helloDeng

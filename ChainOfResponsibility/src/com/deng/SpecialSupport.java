@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname SpecialSupport
- * @Description
+ * @Description    用来解决问题的具体类（仅解决指定编号的问题）
  * @Version 1.0.0
  * @Date 2023/2/26 13:30
  * @Created by helloDeng
