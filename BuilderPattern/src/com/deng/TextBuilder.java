@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TextBuilder
- * @Description
+ * @Description        使用纯文本（普通字符串）编写文档的类
  * @Version 1.0.0
  * @Date 2023/2/16 16:56
  * @Created by helloDeng

@@ -1,4 +1,4 @@
-package com.deng;
+package com.deng.listFactory;
 
 import com.deng.factory.Factory;
 import com.deng.factory.Link;
@@ -7,7 +7,7 @@ import com.deng.factory.Tray;
 
 /**
  * @Classname ListFactory
- * @Description
+ * @Description   表示具体工厂的类（制作ListLink、ListTray、ListPage）
  * @Version 1.0.0
  * @Date 2023/2/16 19:22
  * @Created by helloDeng

@@ -1,10 +1,10 @@
-package com.deng;
+package com.deng.listFactory;
 
 import com.deng.factory.Link;
 
 /**
  * @Classname ListLink
- * @Description
+ * @Description      具体零件：表示HTML的链接的类
  * @Version 1.0.0
  * @Date 2023/2/16 19:49
  * @Created by helloDeng

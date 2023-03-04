@@ -1,4 +1,4 @@
-package com.deng;
+package com.deng.listFactory;
 
 import com.deng.factory.Item;
 import com.deng.factory.Page;
@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 /**
  * @Classname ListPage
- * @Description
+ * @Description          具体零件：表示HTML页面的类
  * @Version 1.0.0
  * @Date 2023/2/16 22:55
  * @Created by helloDeng

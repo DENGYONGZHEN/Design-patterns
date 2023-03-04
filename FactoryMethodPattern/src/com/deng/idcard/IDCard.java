@@ -1,13 +1,15 @@
-package com.deng;
+package com.deng.idcard;
+
+import com.deng.framwork.Product;
 
 /**
  * @Classname IDCard
- * @Description TODO
+ * @Description 实现了use方法的类
  * @Version 1.0.0
  * @Date 2023/2/14 14:35
  * @Created by helloDeng
  */
-public class IDCard extends Product{
+public class IDCard extends Product {
     private String owner;
     IDCard(String owner){
         System.out.println("制作" + owner + "的ID卡");

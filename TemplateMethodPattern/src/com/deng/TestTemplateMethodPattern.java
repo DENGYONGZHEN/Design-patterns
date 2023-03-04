@@ -4,7 +4,7 @@ import java.io.InputStream;
 
 /**
  * @Classname TestTemplateMethodPattern
- * @Description
+ * @Description     将具体处理交给子类
  * @Version 1.0.0
  * @Date 2023/2/13 20:19
  * @Created by helloDeng
@@ -17,10 +17,10 @@ import java.io.InputStream;
 public class TestTemplateMethodPattern {
 
     public static void main(String[] args) {
-        AbstractDisplay c = new CharDisplay('c');
-        StringDisplay display = new StringDisplay("学习一道");
-        c.display();
-        display.display();
+        AbstractDisplay charDisplay = new CharDisplay('c');
+        AbstractDisplay stringDisplay = new StringDisplay("学习一道");
+        charDisplay.display();
+        stringDisplay.display();
 
     }
 }

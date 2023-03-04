@@ -1,8 +1,12 @@
 package com.deng;
 
+import com.deng.framwork.Factory;
+import com.deng.framwork.Product;
+import com.deng.idcard.IdCardFactory;
+
 /**
  * @Classname TestFactoryMethodPattern
- * @Description
+ * @Description   将实例的生成交给子类
  * @Version 1.0.0
  * @Date 2023/2/13 20:47
  * @Created by helloDeng

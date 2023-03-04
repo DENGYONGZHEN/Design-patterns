@@ -1,7 +1,7 @@
 package com.deng;
 
 /**
- * @Classname Iterator   迭代器  和 Aggregate相对应
+ * @Classname Iterator   迭代器  遍历集合的接口
  * @Description          实现这个接口的可以是各种各样的迭代器，如从后向前遍历，跳跃遍历等等
  * @Version 1.0.0
  * @Date 2023/2/12 11:53

@@ -1,8 +1,8 @@
-package com.deng;
+package com.deng.adapter1;
 
 /**
  * @Classname AdapterTest
- * @Description
+ * @Description   类适配器模式(使用继承的适配器)
  * @Version 1.0.0
  * @Date 2023/2/12 20:50
  * @Created by helloDeng

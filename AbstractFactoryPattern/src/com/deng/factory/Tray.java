@@ -5,12 +5,12 @@ import java.util.List;
 
 /**
  * @Classname Tray
- * @Description
+ * @Description      抽象零件：表示含有Link和Tray的类
  * @Version 1.0.0
  * @Date 2023/2/16 19:28
  * @Created by helloDeng
  */
-public abstract class Tray extends Item{
+public abstract class Tray extends Item{                //Tray  托盘
     protected List tray = new ArrayList();
 
     public Tray(String caption) {

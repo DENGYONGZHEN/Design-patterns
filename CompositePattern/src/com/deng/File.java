@@ -2,16 +2,16 @@ package com.deng;
 
 /**
  * @Classname File
- * @Description
+ * @Description    表示文件的类
  * @Version 1.0.0
  * @Date 2023/2/20 15:55
  * @Created by helloDeng
  */
 public class File extends Entry{
-    private String name;
-    private int size;
+    private String name;                //文件名
+    private int size;                   //文件大小
 
-    public File(String name, int size) {
+    public File(String name, int size) {           //构造函数
         this.name = name;
         this.size = size;
     }

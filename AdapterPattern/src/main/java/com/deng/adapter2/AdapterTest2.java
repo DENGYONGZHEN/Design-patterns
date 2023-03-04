@@ -1,8 +1,10 @@
-package com.deng;
+package com.deng.adapter2;
+
+
 
 /**
  * @Classname AdapterTest2
- * @Description
+ * @Description     对象适配器模式(使用委托的适配器)
  * @Version 1.0.0
  * @Date 2023/2/12 21:12
  * @Created by helloDeng

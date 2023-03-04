@@ -11,5 +11,5 @@ package com.deng;
  */
 public interface Product extends Cloneable{
     public abstract void use(String s);
-    public abstract Product creatClone();
+    public abstract Product creatClone();      //复制实例
 }

@@ -8,8 +8,8 @@ package com.deng;
  * @Created by helloDeng
  */
 public class BookshelfIterator implements Iterator {
-    private BookShelf bookShelf;
-    private int index;
+    private BookShelf bookShelf;         //书架实例
+    private int index;                 //索引
 
     public BookshelfIterator(BookShelf bookShelf) {
         this.bookShelf = bookShelf;

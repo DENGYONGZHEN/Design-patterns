@@ -18,7 +18,7 @@ public class Manager {
         showcase.put(name,proto);
     }
     public Product create(String protoName){
-        Product product = showcase.get(protoName);
+        Product product = showcase.get(protoName);       //使用Product接口类型的对象复制实例
         return product.creatClone();
     }
 }

@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname MessageBox
- * @Description
+ * @Description      将字符串放入方框中并使其显示出来的类。实现了use方法和createClone方法
  * @Version 1.0.0
  * @Date 2023/2/15 15:44
  * @Created by helloDeng

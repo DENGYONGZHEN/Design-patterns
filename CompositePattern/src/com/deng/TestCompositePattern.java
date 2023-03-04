@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestCompositePattern
- * @Description
+ * @Description        容器与内容的一致性
  * @Version 1.0.0
  * @Date 2023/2/20 15:42
  * @Created by helloDeng
@@ -23,7 +23,7 @@ public class TestCompositePattern {
             rootdir.add(bindir);
             rootdir.add(tmpdir);
             rootdir.add(usrdir);
-            bindir.add(new File("vi", 1000));
+            bindir.add(new File("vi", 10000));
             bindir.add(new File("latex", 20000));
             rootdir.printList();
 

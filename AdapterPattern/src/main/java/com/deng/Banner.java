@@ -1,7 +1,7 @@
 package com.deng;
 
 /**
- * @Classname Banner
+ * @Classname Banner    现有资源，被适配的资源
  * @Description         Parentheses 圆括号
  * @Version 1.0.0        Asterisk   星号
  * @Date 2023/2/12 19:56

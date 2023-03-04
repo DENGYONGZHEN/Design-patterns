@@ -8,14 +8,14 @@ import java.util.List;
 
 /**
  * @Classname Page
- * @Description
+ * @Description       抽象产品：表示HTML页面的类
  * @Version 1.0.0
  * @Date 2023/2/16 19:32
  * @Created by helloDeng
  */
 public abstract class Page {
-    protected String title;
-    protected String author;
+    protected String title;                 //页面标题
+    protected String author;               //页面作者
     protected List content  = new ArrayList();
 
     public Page(String title, String author) {
@@ -24,7 +24,7 @@ public abstract class Page {
     }
     public void add(Item item){
         content.add(item);
-    }
+    }     //向页面中增加item
     public void output(){
         String filename = title + ".html";
         try {

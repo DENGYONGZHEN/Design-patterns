@@ -1,4 +1,7 @@
-package com.deng;
+package com.deng.adapter2;
+
+import com.deng.Banner;
+import com.deng.adapter2.Print2;
 
 /**
  * @Classname PrintBanner2

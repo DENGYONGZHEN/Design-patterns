@@ -6,30 +6,64 @@
   <component name="ChangeListManager">
     <list default="true" id="7aefc384-e5bd-4504-a697-21fb89aff95d" name="Changes" comment="sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/LimitSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/LimitSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/NoSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/NoSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/OddSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/OddSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/SpecialSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/SpecialSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Support.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/TestChainOfResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/TestChainOfResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Trouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/src/com/deng/Trouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/HtmlWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/HtmlWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/Pagemaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/Pagemaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacadePattern/src/com/deng/TestFacadePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/FacadePattern/src/com/deng/TestFacadePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/Colleague.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteColleague1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteColleague2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/ConcreteMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/Mediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorPattern/src/com/deng/TestMediatorPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/ListVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/ListVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/TestVisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/TestVisitorPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VisitorPattern/src/com/deng/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/ListFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/listFactory/ListFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/ListLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/listFactory/ListLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/listFactory/ListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/ListTray.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/listFactory/ListTray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/TestAbstractFactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/TestAbstractFactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Tray.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/com/deng/factory/Tray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter1/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/AdapterTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter2/AdapterTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter1/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/Print2.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter2/Print2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter1/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/PrintBanner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/com/deng/adapter2/PrintBanner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterPattern/target/classes/file.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgePattern/src/com/deng/CountDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePattern/src/com/deng/CountDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgePattern/src/com/deng/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePattern/src/com/deng/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgePattern/src/com/deng/DisplayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePattern/src/com/deng/DisplayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgePattern/src/com/deng/StringDisplayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePattern/src/com/deng/StringDisplayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgePattern/src/com/deng/TestBridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePattern/src/com/deng/TestBridgePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/src/com/deng/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/src/com/deng/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/src/com/deng/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/src/com/deng/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/src/com/deng/HTMLBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/src/com/deng/HTMLBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/src/com/deng/TestBuilderPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/src/com/deng/TestBuilderPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/src/com/deng/TextBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/src/com/deng/TextBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositePattern/src/com/deng/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositePattern/src/com/deng/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositePattern/src/com/deng/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositePattern/src/com/deng/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositePattern/src/com/deng/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositePattern/src/com/deng/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositePattern/src/com/deng/FileTreatmentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositePattern/src/com/deng/FileTreatmentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositePattern/src/com/deng/TestCompositePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositePattern/src/com/deng/TestCompositePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/Border.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/Border.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/FullBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/FullBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/SideBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/SideBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/StringDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/StringDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/TestDecoratePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorPattern/src/com/deng/TestDecoratePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/framwork/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/IDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/idcard/IDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/IdCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/idcard/IdCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/framwork/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/TestFactoryMethodPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodPattern/src/com/deng/TestFactoryMethodPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/BookshelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/BookshelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/src/main/java/com/deng/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/MessageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/MessageBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/TestPrototypePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/TestPrototypePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/com/deng/UnderLinePen.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrototypePattern/src/com/deng/UnderLinePen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyPattern/src/com/deng/ProbStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyPattern/src/com/deng/ProbStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyPattern/src/com/deng/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyPattern/src/com/deng/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyPattern/src/com/deng/WinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemplateMethodPattern/src/com/deng/TestTemplateMethodPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateMethodPattern/src/com/deng/TestTemplateMethodPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +115,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -107,13 +141,39 @@
       <recent name="com.deng.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestVisitorPattern">
+  <component name="RunManager" selected="Application.com.deng.TestBuilderPattern">
+    <configuration name="TestCompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestCompositePattern" />
+      <module name="CompositePattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.listFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDecoratePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestDecoratePattern" />
+      <module name="DecoratorPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deng.listFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMediatorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.deng.TestMediatorPattern" />
       <module name="MediatorPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.*" />
+          <option name="PATTERN" value="com.deng.listFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +186,7 @@
       <module name="VisitorPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.*" />
+          <option name="PATTERN" value="com.deng.listFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,38 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.deng.TestCommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestCommandPattern" />
-      <module name="CommandPattern" />
+    <configuration name="com.deng.TestBuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deng.TestBuilderPattern" />
+      <module name="BuilderPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deng.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.deng.TestInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestInterpreter" />
-      <module name="Interpreter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.deng.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.deng.TestMementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deng.TestMementoPattern" />
-      <module name="MementoPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.deng.game.*" />
+          <option name="PATTERN" value="com.deng.framwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestVisitorPattern" />
-        <item itemvalue="Application.TestMediatorPattern" />
-        <item itemvalue="Application.com.deng.TestMementoPattern" />
-        <item itemvalue="Application.com.deng.TestInterpreter" />
-        <item itemvalue="Application.com.deng.TestCommandPattern" />
+        <item itemvalue="Application.com.deng.TestBuilderPattern" />
+        <item itemvalue="Application.com.deng.TestCompositePattern" />
+        <item itemvalue="Application.com.deng.TestDecoratePattern" />
+        <item itemvalue="Application.com.deng.TestVisitorPattern" />
+        <item itemvalue="Application.com.deng.TestMediatorPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +247,9 @@
       <workItem from="1677483531371" duration="15531000" />
       <workItem from="1677569213944" duration="18123000" />
       <workItem from="1677645905210" duration="2985000" />
-      <workItem from="1677649783640" duration="8205000" />
+      <workItem from="1677649783640" duration="8679000" />
+      <workItem from="1677833661520" duration="840000" />
+      <workItem from="1677891072356" duration="17831000" />
     </task>
     <task id="LOCAL-00001" summary="Iterator模式">
       <created>1676174561658</created>
@@ -292,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677594658403</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sample">
+      <created>1677660094940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677660094940</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,4 @@
-package com.deng;
+package com.deng.adapter2;
 
 /**
  * @Classname Print2

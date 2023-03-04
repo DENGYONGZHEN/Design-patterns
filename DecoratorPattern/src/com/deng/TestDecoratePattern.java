@@ -2,7 +2,7 @@ package com.deng;
 
 /**
  * @Classname TestDecoratePattern
- * @Description
+ * @Description   装饰边框与被装饰物的一致性
  * @Version 1.0.0
  * @Date 2023/2/20 21:03
  * @Created by helloDeng
